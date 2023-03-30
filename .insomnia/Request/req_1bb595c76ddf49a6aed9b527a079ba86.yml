@@ -1,0 +1,32 @@
+_id: req_1bb595c76ddf49a6aed9b527a079ba86
+type: Request
+parentId: fld_37574ceb48b44741beccc06a0ffbf0c4
+modified: 1675861459738
+created: 1675861250069
+url: https://api.clerk.io/v2/subscriber/list
+name: suscriber list
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"key": "{{ _.public_key }}",
+    	"private_key": "{{ _.private_key }}",
+    	"list_id":"BU0ZLLBN",
+    	"limit":10,
+    	"order_by":"-subscribed_at"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675861250069
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
