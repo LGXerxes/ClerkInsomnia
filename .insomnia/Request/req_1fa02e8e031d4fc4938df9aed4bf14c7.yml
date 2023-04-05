@@ -1,7 +1,7 @@
 _id: req_1fa02e8e031d4fc4938df9aed4bf14c7
 type: Request
 parentId: fld_2d4606881c2044ceb9756e96f11e285b
-modified: 1679646340536
+modified: 1680702893102
 created: 1673308453702
 url: "{{ _.domain }}{{ _.route }}product"
 name: /product
@@ -15,12 +15,28 @@ body:
 parameters:
   - name: page
     value: "{{ _.page }}"
+    id: pair_40b91e6526274910810caadd9430f8af
+    disabled: true
   - name: limit
     value: "{{ _.limit }}"
+    id: pair_e2db3313050b4af2825283e3662afa81
+    disabled: true
   - name: key
     value: "{{ _.public_key }}"
+    id: pair_6f618f17beb4444795ba9946422c0dcf
+    disabled: true
   - name: private_key
     value: "{{ _.private_key }}"
+    id: pair_5e3b465dd2cc438ca9bca63c87995e0c
+    disabled: true
+  - id: pair_0d7ed803c32b41d3b01d678d9b5ff0ed
+    name: page
+    value: "2032"
+    description: ""
+  - id: pair_d6df320551ba452b8cd6427f1d533c26
+    name: limit
+    value: "1"
+    description: ""
 headers:
   - name: Content-Type
     value: application/json

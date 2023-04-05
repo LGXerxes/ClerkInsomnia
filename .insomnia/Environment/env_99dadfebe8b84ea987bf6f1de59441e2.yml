@@ -1,13 +1,13 @@
 _id: env_99dadfebe8b84ea987bf6f1de59441e2
 type: Environment
 parentId: env_0fff07818688424192f9ab598a2f16a5
-modified: 1680168149638
+modified: 1680267591043
 created: 1680168143991
 name: Current
 data:
-  public_key: xxx
-  private_key: xxxxx
-  domain: test
+  public_key: 9aL0BNb8ULzmO1dVu4YpjBZN484HUtQ6
+  private_key: Pl494ynCtkD3Voggw4QmrQEfibQuT3f4rE6qrKDuqR
+  domain: https://belomaxm2.stgin.com
   limit: 100
   page: 0
   store: 1

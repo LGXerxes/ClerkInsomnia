@@ -1,7 +1,7 @@
 _id: req_e8cea9bb33ac4cf0a4bfa835942d9392
 type: Request
 parentId: fld_ba6fa12d5fef48dd823e4d7a83c300dc
-modified: 1675069272958
+modified: 1680267533869
 created: 1673308453761
 url: https://api.clerk.io/v2/subscriber/subscribe
 name: subscribe
@@ -15,7 +15,7 @@ parameters:
     description: ""
   - id: pair_fba8c4a47a464f1b8f2c36e58de6081a
     name: email
-    value: lni@clerk.io
+    value: p+sweetseeds@feeleas.org
     description: ""
   - id: pair_45ebaa9473b94b2c81eb049249f2cae9
     name: list_id

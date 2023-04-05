@@ -1,9 +1,9 @@
 _id: req_d17e28c9f4924808bd7b3be0e0682d90
 type: Request
 parentId: fld_3e73bdb2f674490d8f32594208285e03
-modified: 1675437332879
+modified: 1680510180672
 created: 1673308453758
-url: https://api.clerk.io/v2/order/list
+url: https://api.clerk.io/v2/orders
 name: orders
 description: ""
 method: GET
@@ -19,11 +19,11 @@ parameters:
     description: ""
   - id: pair_45ebaa9473b94b2c81eb049249f2cae9
     name: orders
-    value: "[]"
+    value: '["#2441"]'
     description: Array of ID's
     type: text
     multiline: false
-    disabled: true
+    disabled: false
 headers: []
 authentication: {}
 metaSortKey: -1668614450487.5156
